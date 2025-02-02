@@ -36,5 +36,9 @@ Make sure to replace the placeholder values in the script with your CSV file pat
 
 ```bash
 file_path = 'ENTER PATH TO CELLAR TRACKER CSV-FILE HERE'
-openai.api_key = 'ENTER YOUR API KEY HERE'
+# Add your OpenAI API key here
+openai.api_key = 'YOUR OPEN API KEY'
+
+# Path to the CSV file
+file_path = 'YOUR FILE PATH'
 ```
