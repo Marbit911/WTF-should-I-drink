@@ -1,12 +1,14 @@
 # WTF should I drink?
 
-Welcome to **WTF should I drink?**. Ever found yourself standing dumbstruck in front of your prized wine collection, scratching your head, wondering which bottle should grace tonight's dinner? Fear not! This interactive command-line companion will rescue you from indecision by intelligently analyzing your wine data from a CellarTracker CSV file. It offer vegetarian food pairings and checks the drinking window for each wine. 
+Welcome to **WTF should I drink?**. Ever found yourself standing dumbstruck in front of your prized wine collection, scratching your head, wondering which bottle should grace tonight's dinner? Fear not! This interactive command-line companion will rescue you from indecision by intelligently analyzing your wine data from a **cellartracker.com** CSV file. It offer vegetarian food pairings and checks the drinking window for each wine. 
 
 ## Contents
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
+- [WTF should I drink?](#wtf-should-i-drink)
+  - [Contents](#contents)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
 
 ## Features
 
@@ -36,3 +38,6 @@ Make sure to replace the placeholder values in the script with your CSV file pat
 file_path = 'ENTER PATH TO CELLAR TRACKER CSV-FILE HERE'
 openai.api_key = 'ENTER YOUR API KEY HERE'
 ```
+
+To get the csv file from cellartracker.com. To do this, go to My Cellar > Export and select all columns. 
+For more information about exporting cellartracker data, see [documentation](https://support.cellartracker.com/article/29-exporting-data).
