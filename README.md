@@ -4,11 +4,9 @@ Welcome to **WTF should I drink?**. Ever found yourself standing dumbstruck in f
 
 ## Contents
 
-- [WTF should I drink?](#wtf-should-i-drink)
-  - [Contents](#contents)
-  - [Features](#features)
-  - [Installation](#installation)
-  - [Usage](#usage)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
 
 ## Features
 
@@ -36,9 +34,5 @@ Make sure to replace the placeholder values in the script with your CSV file pat
 
 ```bash
 file_path = 'ENTER PATH TO CELLAR TRACKER CSV-FILE HERE'
-# Add your OpenAI API key here
-openai.api_key = 'YOUR OPEN API KEY'
-
-# Path to the CSV file
-file_path = 'YOUR FILE PATH'
+openai.api_key = 'ENTER YOUR API KEY HERE'
 ```
